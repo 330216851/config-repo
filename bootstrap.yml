@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: visualization-service    # 项目名称尽量用小写
+
+#测试使用环境
+---
+spring:
+  profiles: test
+  application:
+    name: visualization-service   # 项目名称尽量用小写
